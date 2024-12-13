@@ -3,18 +3,19 @@
     "version": "1.0.0",
     "description": "M324 Devops",
     "scripts": {
-      "server": "nodemon index.js",
-      "test": "jest"
+        "server": "nodemon index.js",
+        "test": "jest"
     },
     "keywords": [
-      "m324",
-      "javascript"
+        "m324",
+        "javascript"
     ],
     "author": "Sean",
     "license": "ISC",
     "dependencies": {
-      "jest": "^29.7.0",
-      "supertest": "^6.3.3"
+        "cors": "^2.8.5",
+        "express": "^4.21.2",
+        "jest": "^29.7.0",
+        "supertest": "^6.3.3"
     }
-  }
-  
+}
